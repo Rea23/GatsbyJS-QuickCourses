@@ -1,0 +1,157 @@
+html {
+  --beige: #f3e9d2;
+  --black: #000000;
+  --blue: #16bac5;
+  --red: rgb(223, 49, 69);
+  --white: #ffffff;
+  --padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+}
+#main-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+}
+.price {
+  margin-bottom: 4vw;
+}
+.register-input {
+  width: 25vw;
+  font-size: 17pt;
+}
+.register-input-text {
+  font-size: 19pt;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.register-input-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3vw;
+  width: 25vw;
+  min-width: 200px;
+  margin-bottom: 0.5vw;
+}
+.register-select {
+  display: flex;
+  width: 15%;
+  justify-content: flex-start;
+  align-self: center;
+  margin-right: 1%;
+  font-size: 17pt;
+}
+.select-div {
+  display: flex;
+  align-self: center;
+  margin-bottom: 0;
+}
+.date {
+  margin-bottom: 0.5vw;
+}
+.birthdate {
+  color: #7a7a7a;
+}
+.date-input {
+  height: 3vw;
+  width: 100%;
+}
+#register-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#register-input-button {
+  font-size: 17pt;
+  padding: 8px 20px;
+  margin-top: 5%;
+  background-color: var(--red);
+  color: var(--white);
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: var(--black);
+  cursor: pointer;
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 370px) {
+  .register-input {
+    font-size: 9pt;
+  }
+  .register-input-text {
+    font-size: 9pt;
+  }
+  .register-select {
+    font-size: 8pt;
+  }
+  #register-input-button {
+    font-size: 9pt;
+    width: 59.63px;
+  }
+  .register-input-box {
+    height: 6vw;
+  }
+  .date-input {
+    height: 6vw;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 750px) {
+  .register-input {
+    font-size: 11pt;
+  }
+  .register-input-text {
+    font-size: 12pt;
+  }
+  .register-select {
+    font-size: 9pt;
+  }
+  #register-input-button {
+    font-size: 11pt;
+  }
+  .register-input-box {
+    height: 4vw;
+  }
+  .date-input {
+    height: 4vw;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 860px) {
+  .register-input {
+    font-size: 12pt;
+  }
+  .register-input-text {
+    font-size: 14pt;
+  }
+  .register-select {
+    font-size: 12pt;
+  }
+  #register-input-button {
+    font-size: 12pt;
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 1030px) {
+  .register-input {
+    font-size: 14pt;
+  }
+  .register-input-text {
+    font-size: 16pt;
+  }
+  .register-select {
+    font-size: 14pt;
+  }
+  #register-input-button {
+    font-size: 14pt;
+  }
+}

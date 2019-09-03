@@ -1,0 +1,146 @@
+:root {
+  --beige: #f3e9d2;
+  --black: #000000;
+  --blue: #16bac5;
+  --red: rgb(223, 49, 69);
+  --white: #ffffff;
+  --padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+}
+.logged-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logged-message {
+  margin-top: 5vw;
+}
+.main-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+}
+.message {
+  margin-bottom: 2vw;
+}
+.main-input-login {
+  width: 25vw;
+  min-width: 200px;
+  height: 3vw;
+  font-size: 17pt;
+  justify-content: center;
+  margin-bottom: 0.5vw;
+}
+.main-register-p {
+  font-size: 19pt;
+  justify-self: end;
+  align-self: center;
+}
+.main-input-button {
+  font-size: 17pt;
+  justify-self: center;
+  padding: 8px 20px;
+  margin-top: 5%;
+  background-color: var(--red);
+  color: var(--white);
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: var(--black);
+  cursor: pointer;
+  width: 12%;
+}
+.main-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 19pt;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.main-register > a {
+  color: var(--red);
+  margin-top: 2%;
+}
+@media screen and (max-width: 370px) {
+  * {
+    margin: 1px;
+  }
+  .main-input-login {
+    font-size: 9pt;
+    height: 6vw;
+  }
+  .main-register-p {
+    font-size: 9pt;
+  }
+  .main-input-p {
+    font-size: 9pt; /*big*/
+  }
+  .main-input-button {
+    font-size: 9pt;
+    width: 90.2px;
+  }
+  .main-register {
+    font-size: 9pt;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 750px) {
+  .main-input-login {
+    font-size: 11pt;
+    height: 4vw;
+  }
+  .main-register-p {
+    font-size: 12pt;
+  }
+  .main-input-p {
+    font-size: 12pt;
+  }
+  .main-input-button {
+    font-size: 11pt;
+    width: 90.2px;
+  }
+  .main-register {
+    font-size: 11pt;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 860px) {
+  .main-input-login {
+    font-size: 12pt;
+  }
+  .main-register-p {
+    font-size: 14pt;
+  }
+  .main-input-p {
+    font-size: 14pt;
+  }
+  .main-input-button {
+    font-size: 12pt;
+  }
+  .main-register {
+    font-size: 12pt;
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 1030px) {
+  .main-input-login {
+    font-size: 14pt;
+  }
+  .main-register-p {
+    font-size: 14pt;
+  }
+  .main-input-p {
+    font-size: 16pt;
+  }
+  .main-input-button {
+    font-size: 14pt;
+  }
+  .main-register {
+    font-size: 14pt;
+  }
+}

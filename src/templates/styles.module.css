@@ -1,0 +1,48 @@
+.Post > p {
+  padding: 0;
+}
+
+.BackLink {
+  color: rgb(223, 49, 69);
+  font-size: 17pt;
+  text-decoration: underline;
+}
+
+.ArticleHeading {
+  font-size: 19pt;
+  margin-top: 2vw;
+}
+
+@media screen and (max-width: 370px) {
+  .BackLink {
+    font-size: 9pt;
+  }
+  .ArticleHeading {
+    font-size: 9pt;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 750px) {
+  .BackLink {
+    font-size: 11pt;
+  }
+  .ArticleHeading {
+    font-size: 12pt;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 860px) {
+  .BackLink {
+    font-size: 12pt;
+  }
+  .ArticleHeading {
+    font-size: 14pt;
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 1030px) {
+  .BackLink {
+    font-size: 16pt;
+  }
+  .ArticleHeading {
+    font-size: 14pt;
+  }
+}
+

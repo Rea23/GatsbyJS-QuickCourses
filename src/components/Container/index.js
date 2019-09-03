@@ -1,0 +1,9 @@
+import React from "react";
+import styles from "./styles.module.css";
+import cn from "classnames";
+
+//komentar
+
+export default ({ className, children }) => (
+  <div className={cn(className, styles.Container)}>{children}</div>
+);

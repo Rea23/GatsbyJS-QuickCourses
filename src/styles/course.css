@@ -1,0 +1,96 @@
+html {
+  --beige: #f3e9d2;
+  --black: #000000;
+  --blue: #16bac5;
+  --red: rgb(223, 49, 69);
+  --white: #ffffff;
+  --padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0;
+}
+.main-header-img {
+  max-width: 1200px;
+  width: 100%;
+  height: 20vw;
+  margin-top: 0.5%;
+}
+#main-div {
+  margin: 2% 0;
+}
+.main-div-h {
+  font-size: 19pt;
+}
+.main-div-difficulty {
+  color: var(--red);
+}
+.text {
+  font-size: 17pt;
+}
+.back-link {
+  color: var(--red);
+  margin-bottom: 2%;
+}
+.course-code {
+  background-color: var(--black);
+  color: var(--blue);
+  margin: 2% 0;
+}
+#pages {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 2%;
+}
+.page-label {
+  margin-right: 1%;
+}
+.log-message {
+  margin-bottom: 6vw;
+}
+.login-link {
+  margin-bottom: 6vw;
+}
+@media screen and (max-width: 370px) {
+  * {
+    margin: 1px;
+  }
+  .main-div-h {
+    font-size: 9pt;
+  }
+  .text {
+    font-size: 9pt;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 750px) {
+  .main-div-h {
+    font-size: 12pt;
+  }
+  .text {
+    font-size: 11pt;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 860px) {
+  .main-div-h {
+    font-size: 14pt;
+  }
+  .text {
+    font-size: 12pt;
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 1030px) {
+  .main-div-h {
+    font-size: 16pt;
+  }
+  .text {
+    font-size: 14pt;
+  }
+}
